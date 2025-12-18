@@ -1,0 +1,17 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Specifically allow Google AdMob/AdSense crawlers to access ads.txt and app-ads.txt
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Google-adstxt
+Disallow:
+
+# Allow Google bot
+User-agent: Googlebot
+Allow: /
+
+# Sitemap location (update with your actual sitemap URL)
+# Sitemap: https://yourdomain.com/sitemap.xml
